@@ -1,0 +1,100 @@
+:root {
+    
+    --excel_verde_oscuro: #217346;
+    --excel_verde_medio: #33A852;
+    --excel_verde_claro: #B5E6A2;
+    --power_Amarillo_oscuro: #F2C811;
+    --power_Amarillo_medio: #E8B600;
+    --power_Amarillo_claro: #F2D600;
+    --tableau_Azul: #4E79A7;
+    --tableau_Naranja: #F28E2B;
+    --tableau_Gris: #E15759;
+    --sql_Azuloscuro: #00758F;
+    --sql_Azulclaro: #00618A;
+    --sql_gris: #2E2E2E;
+    --python_Azuloscuro: #306998;
+    --python_Amarillo: #FFD43B;
+    --python_Azulclaro: #4B8BBE;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+html {  
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* html {  
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+} */
+/* .excel {
+    width: 100%;   
+    height: 100rem;  
+    border: 1px solid #000;  
+} */
+.lineas {
+    max-width: 100%;
+    height: 5rem; 
+}
+.lineas1 {
+    background-color: var(--excel_verde_oscuro);  
+}
+.lineas2 {
+    background-color:var(--excel_verde_medio);  
+}
+.lineas3 {
+    background-color:var(--excel_verde_claro);
+}
+.plineas1 {
+    background-color: var(--power_Amarillo_oscuro);  
+}
+.plineas2 {
+    background-color:var(--power_Amarillo_medio);  
+}
+.plineas3 {
+    background-color:var(--power_Amarillo_claro);
+}
+.tlineas1 {
+    background-color: var(--tableau_Azul);  
+}
+.tlineas2 {
+    background-color:var(--tableau_Naranja);  
+}
+.tlineas3 {
+    background-color:var(--tableau_Gris);
+}
+.slineas1 {
+    background-color: var(--sql_Azuloscuro);  
+}
+.slineas2 {
+    background-color:var(--sql_Azulclaro);  
+}
+.slineas3 {
+    background-color:var(--sql_gris);
+}
+.pylineas1 {
+    background-color: var(--python_Azuloscuro);  
+}
+.pylineas2 {
+    background-color:var(--python_Azulclaro);  
+}
+.pylineas3 {
+    background-color:var(--python_Amarillo);
+}
+
