@@ -1,0 +1,42 @@
+/* Asegurarse de que el cuerpo y el HTML ocupen toda la altura y no tengan márgenes */
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+/* Estilos para las mitades */
+.mitad {
+    width: 100%;
+    height: 50%;
+}
+
+/* Colores de las mitades */
+.azul {
+    background-color: #0000FF;  /* Azul */
+}
+
+.rojo {
+    background-color: #FF0000;  /* Rojo */
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.mitad {
+    width: 100%;
+    height: 50%;
+}
+
+.azul {
+    background-color: #0000FF;  /* Azul */
+}
+
+.rojo {
+    background-color: #FF0000;  /* Rojo */
+}
+
+.a {
+    color: #FF0000;
+}
