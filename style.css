@@ -50,11 +50,11 @@ p {
 }
 .lineas1 {
     background-color: var(--excel_verde_oscuro);  
-    height: 52rem; 
+    height: 49rem; 
 }
 .lineas2 {
     background-color:var(--excel_verde_medio); 
-    height: 48rem; 
+    height: 45rem; 
 }
 .lineas3 {
     background-color:var(--excel_verde_claro);
@@ -62,44 +62,50 @@ p {
 }
 .plineas1 {
     background-color: var(--power_Amarillo_oscuro);  
-    height: 46rem; 
+    height: 44rem; 
 }
 .plineas2 {
     background-color:var(--power_Amarillo_medio);  
-    height: 50rem; 
+    height: 47rem; 
 }
 .plineas3 {
     background-color:var(--power_Amarillo_claro);
 }
 .tlineas1 {
     background-color: var(--tableau_Azul);  
-    height: 46rem; 
+    height: 43rem; 
 }
 .tlineas2 {
     background-color:var(--tableau_Naranja);  
-    height: 61rem; 
+    height: 57rem; 
 }
 .tlineas3 {
     background-color:var(--tableau_Gris);
-    height: 32rem; 
+    height: 31rem; 
 }
 .slineas1 {
     background-color: var(--sql_Azuloscuro);  
+    height: 55rem; 
 }
 .slineas2 {
     background-color:var(--sql_Azulclaro);  
+    height: 49rem; 
 }
 .slineas3 {
     background-color:var(--sql_gris);
+    height: 69rem; 
 }
 .pylineas1 {
     background-color: var(--python_Azuloscuro);  
+    height: 44rem; 
 }
 .pylineas2 {
     background-color:var(--python_Azulclaro);  
+    height: 48rem; 
 }
 .pylineas3 {
     background-color:var(--python_Amarillo);
+    height: 35rem; 
 }
 
 .imagen-informacion {
@@ -177,14 +183,9 @@ header h1 {
     display: inline-block; 
 }
 .curso {
-    display: flex;
     gap: 2rem;
     padding-top: 2rem;
-    flex-wrap: wrap;
-    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
 }
-.curso-img img{
-    flex: 1 1 calc(20% - 10px); /* Cinco columnas */
-    height: 17rem; 
-    object-fit: cover;
-}
+
