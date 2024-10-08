@@ -1,6 +1,6 @@
 :root {
     
-    --excel_verde_oscuro: #217346;
+    --excel_verde_oscuro: #257448;
     --excel_verde_medio: #33A852;
     --excel_verde_claro: #B5E6A2;
     --power_Amarillo_oscuro: #F2C811;
@@ -22,7 +22,7 @@ body, html {
     height: 100%;
 }
 .contenedor {
-    max-width: 110rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 html {  
@@ -50,32 +50,38 @@ p {
 }
 .lineas1 {
     background-color: var(--excel_verde_oscuro);  
-    height: 37rem; 
+    height: 52rem; 
 }
 .lineas2 {
     background-color:var(--excel_verde_medio); 
-    height: 35rem; 
+    height: 48rem; 
 }
 .lineas3 {
     background-color:var(--excel_verde_claro);
+    height: 32rem; 
 }
 .plineas1 {
     background-color: var(--power_Amarillo_oscuro);  
+    height: 46rem; 
 }
 .plineas2 {
     background-color:var(--power_Amarillo_medio);  
+    height: 50rem; 
 }
 .plineas3 {
     background-color:var(--power_Amarillo_claro);
 }
 .tlineas1 {
     background-color: var(--tableau_Azul);  
+    height: 46rem; 
 }
 .tlineas2 {
     background-color:var(--tableau_Naranja);  
+    height: 61rem; 
 }
 .tlineas3 {
     background-color:var(--tableau_Gris);
+    height: 32rem; 
 }
 .slineas1 {
     background-color: var(--sql_Azuloscuro);  
@@ -116,36 +122,18 @@ header {
 header h1 {
     color: white;
 }
-header p {
-    
-}
 .imagenes {
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 2rem;
+    gap: 5rem;
+    padding-top: 2rem;
 }
-.imagenes #img1 {
-    width: 50rem;
-}
-.imagenes #img2 {
-    width: 60rem;
-}
-/* .imagenes #img3 {
-    width: 60rem;
-}
-.imagenes #img4 {
-    width: 51rem;
-} */
-/* .imagenes-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
-.imagenes-img img {
-    width: 100%; /* La imagen ocupará el 100% del ancho del cuadro */
+
+.imagenes-img img, .curso-img img {
+    width: 100%; 
     cursor: pointer;
 }
-.imagenes-img img:hover {
+.curso-img img:hover, .imagenes-img img:hover {
     transform: scale(1.1);
 }
 .full-img {
@@ -155,16 +143,48 @@ header p {
     position: fixed;
     top: 0;
     left: 0;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
+    z-index: 99;
 }
 .full-img span { 
     position: absolute;
-    top: 5%;
-    right: 5%;
+    top: 10%;
+    right: 50%;
     color: #fff;
     cursor: pointer;
     font-size: 2.5rem;
+    background-color: black;
+    border-radius: 1rem;
+}
+.letra  {
+    padding-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#000000;
+    background-color: transparent !important;
+}
+.enlace-contenedor {
+    display: flex;
+    justify-content: flex-end;
+    padding: 3rem 0rem 2rem 0;
 }
 
+.enlace {
+    color: #2E2E2E;
+    font-size: 2.5rem;
+    background-color: #fff;
+    display: inline-block; 
+}
+.curso {
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.curso-img img{
+    flex: 1 1 calc(20% - 10px); /* Cinco columnas */
+    height: 17rem; 
+    object-fit: cover;
+}
