@@ -25,6 +25,9 @@ body, html {
     max-width: 120rem;
     margin: 0 auto;
 }
+.head {
+    text-align: center;
+}
 html {  
     box-sizing: border-box;
     font-size: 62.5%; 
@@ -46,7 +49,7 @@ p {
 
 .lineas {
     max-width: 100%;
-    height: 10rem; 
+    
 }
 .lineas1 {
     background-color: var(--excel_verde_oscuro);  
@@ -105,9 +108,11 @@ p {
 }
 .pylineas3 {
     background-color:var(--python_Amarillo);
-    height: 35rem; 
+    height: 55rem; 
 }
-
+.hi {
+    height: 25rem;
+}
 .imagen-informacion {
     display: grid;
     grid-template-columns: 20% 80%;
@@ -157,12 +162,12 @@ header h1 {
 .full-img span { 
     position: absolute;
     top: 10%;
-    right: 50%;
-    color: #fff;
+    right: 10%;
+    color: black;
     cursor: pointer;
-    font-size: 2.5rem;
-    background-color: black;
-    border-radius: 1rem;
+    font-size: 3.5rem;
+    background-color: white;
+    border-radius: 100%;
 }
 .letra  {
     padding-top: 2rem;
@@ -188,4 +193,26 @@ header h1 {
     display: grid;
     grid-template-columns: repeat(5,1fr);
 }
-
+.header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.header-titulo {
+    justify-content: center;
+}
+.header-enlace a:hover {
+    color: white;
+}
+.header-enlace a {
+    position: relative;
+    top: 4.5rem;
+    left: 15rem;
+    font-size: 2.5rem;
+    color: #E8B600;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #E8B600;
+}
