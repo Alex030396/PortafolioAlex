@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Alex Briceño</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-enlace">            
+            <a href="../index.html">Inicio</a>
+        </div>
+        <div class="header-titulo">
+            <h1>Analista de datos</h1>
+        </div>
+    </header>
+    <main>
+        <div class=" excel">
+            <h1>Excel</h1> 
+            <div class="lineas lineas1 h60">
+                <div class="contenedor">
+                    <p class="letra">Mis Proyectos</p>
+                    <div class="imagenes-img tamaño">
+                        <img id="img3" onclick="openfullImg(this.src)" src="../img/Ventas.png" alt="dashboard1"> 
+                    </div>
+                        <a href="../Archivos/ventas.xlsx" download="ventas" class="descarga"> << Clic para descargar >> "ventas.xlsx"</a>
+                    
+                </div>
+            </div>
+            <div class="lineas lineas2 h60">
+            </div>
+            <div class="lineas lineas3 h60">
+            </div>
+        </div>
+    </main>
+    <footer>  
+        <div class="full-img" id="fullImgBox">
+            <img src="img/Dashboard Excel.png" id="fullimg" alt="">
+            <span onclick="closeImg()">X</span>
+        </div>
+    </footer>
+</body>
+<script src="../script.js"> </script>
+</html>
