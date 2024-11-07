@@ -237,3 +237,9 @@ a {
 .descarga:hover {
     color: white;
 }
+.video {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin: 3rem 0;
+}
