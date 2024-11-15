@@ -243,3 +243,6 @@ a {
     align-items: center; /* Centra verticalmente */
     margin: 3rem 0;
 }
+.blank {
+    color: white;
+}
