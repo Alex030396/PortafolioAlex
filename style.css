@@ -61,7 +61,7 @@ p {
 }
 .lineas3 {
     background-color:var(--excel_verde_claro);
-    height: 32rem; 
+    height: 50rem; 
 }
 .plineas1 {
     background-color: var(--power_Amarillo_oscuro);  
@@ -108,7 +108,7 @@ p {
 }
 .pylineas3 {
     background-color:var(--python_Amarillo);
-    height: 55rem; 
+    height: 70rem; 
 }
 .hi {
     height: 25rem;
