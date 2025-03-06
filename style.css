@@ -149,10 +149,7 @@ header h1 {
 }
 .tamaño {
     width: 60%;
-    margin: 4rem 0rem;
-    
-    
-    
+    margin: 4rem 25rem;
 }
 .full-img {
     width: 100%;
@@ -221,7 +218,7 @@ header h1 {
 }
 a {
     text-decoration: none;
-    color: #E8B600;
+    color: #000000;
 }
 .h60 {
     height: 60rem;
@@ -229,7 +226,7 @@ a {
 .descarga {
     font-size: 2.5rem;
     position: relative;
-    left: 35rem;
+    left: 30rem;
 }
 .des {
     color: black;
