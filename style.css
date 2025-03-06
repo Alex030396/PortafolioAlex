@@ -11,7 +11,7 @@
     --tableau_Gris: #E15759;
     --sql_Azuloscuro: #00758F;
     --sql_Azulclaro: #00618A;
-    --sql_gris: #2E2E2E;
+    --sql_gris: #414040;
     --python_Azuloscuro: #306998;
     --python_Amarillo: #FFD43B;
     --python_Azulclaro: #4B8BBE;
@@ -219,6 +219,7 @@ header h1 {
 a {
     text-decoration: none;
     color: #000000;
+    background-color: gray;
 }
 .h60 {
     height: 60rem;
